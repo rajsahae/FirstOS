@@ -1,0 +1,8 @@
+Small tutorial on how to write your own operating system
+http://code.google.com/p/onyxkernel/wiki/FirstStep
+I had to modify some of the compilation/linking because I was compiling
+on my laptop, which is runing x86_64, and not 32-bit Ubuntu.
+I'm also currently having trouble loading the os.img into my VirtualBox.
+It's giving me some sort of error about how the image is an unrecognizable
+format. I wonder if it's saying that because the size is not exactly 1440 KiB,
+or whatever it expects a floppy disk image to be.
